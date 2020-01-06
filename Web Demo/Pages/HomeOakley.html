@@ -21,11 +21,11 @@
 	<body data-preloader="2">
 		
 		<header>
-			<nav class="navbar navbar-absolute"><!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
+			<!-- navbar -->
+			<nav class="navbar"><!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
 				<div class="container">
 					<a class="navbar-brand" href="#">
-                        <h5>Logo</h5>
-						<h5>Climb Time</h5>
+						<h5>Logo Climb Time</h5>
 					</a>
 					<ul class="nav"><!-- add 'dropdown-dark/dropdown-grey/dropdown-transparent/dropdown-transparent-dark' -->
 						<!-- Basic link -->
@@ -45,15 +45,19 @@
 							<a class="nav-link" href="#">Waiver</a>
 						</li>
 						
-					</ul><!-- end nav -->
+                    </ul>
 					<!-- Nav Toggle button -->
 					<button class="nav-toggle-btn">
 			            <span class="lines"></span>
 			        </button><!-- toggle button will show when screen resolution is less than 992px -->
+			        <!-- Social Icons -->
+			        <ul class="list-horizontal-unstyled ml-auto">
+						<li><a href="https://www.facebook.com/climbtimeoakley/"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/climbtimeaokley/"><i class="fab fa-instagram"></i></a></li>
+					</ul>
 				</div><!-- end container -->
-			</nav>
-		</header>
-
+			</nav><!-- end navbar -->
+        </header>
 		<!-- Scroll to top button -->
 		<div class="scrolltotop">
 			<a class="button-circle button-circle-sm button-circle-dark" href="#"><i class="ti-arrow-up"></i></a>
@@ -64,7 +68,7 @@
 		<div class="section-fullscreen">
 			<div class="owl-carousel owl-nav-overlay owl-dots-overlay" data-owl-nav="true" data-owl-dots="true" data-owl-items="1" data-owl-autoPlay="true">
 				<!-- Slider box 1 -->
-				<div class="bg-image" style="background-image: url(../assets/images/background.jpg)">
+				<div class="bg-image" style="background-image: url(../images/wideUpperLeft.jpg)">
 					<div class="bg-black-04">
 						<div class="container">
 							<div class="position-middle">
@@ -79,7 +83,7 @@
 					</div>
 				</div>
 				<!-- Slider box 2 -->
-				<div class="bg-image" style="background-image: url(../assets/images/background.jpg)">
+				<div class="bg-image" style="background-image: url(../images/wideBackToFront.jpg)">
 					<div class="bg-black-04">
 						<div class="container">
 							<div class="position-middle">
@@ -244,7 +248,7 @@
 
 
 		<!-- Testimonial section -->
-		<div class="section-lg bg-image parallax" style="background-image: url(../assets/images/background.jpg)">
+		<div class="section-lg bg-image parallax" style="background-image: url(../images/wideActionShot.jpg)">
 			<div class="bg-black-04">
 				<div class="container">
 					<div class="owl-carousel" data-owl-dots="false" data-owl-nav="true" data-owl-margin="30" data-owl-xs="1" data-owl-sm="1" data-owl-md="1" data-owl-lg="2" data-owl-xl="2">
@@ -255,8 +259,8 @@
 									<img class="img-circle-sm" src="../assets/images/img-circle-small.jpg" alt="">
 								</div>
 								<div class="d-inline-block">
-									<h5 class="font-weight-normal margin-0 line-height-140">Emiley Haley</h5>
-									<span class="font-small font-weight-normal text-white-09">Manager - Mono</span>
+									<h5 class="font-weight-normal margin-0 line-height-140">John Doe</h5>
+									<span class="font-small font-weight-normal text-white-09">Yelp Review</span>
 								</div>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -268,8 +272,8 @@
 									<img class="img-circle-sm" src="../assets/images/img-circle-small.jpg" alt="">
 								</div>
 								<div class="d-inline-block">
-									<h5 class="font-weight-normal margin-0 line-height-140">Andrew Palmer</h5>
-									<span class="font-small font-weight-normal text-white-09">Developer - Mono</span>
+									<h5 class="font-weight-normal margin-0 line-height-140">John Doe</h5>
+									<span class="font-small font-weight-normal text-white-09">FaceBook Review</span>
 								</div>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -281,8 +285,8 @@
 									<img class="img-circle-sm" src="../assets/images/img-circle-small.jpg" alt="">
 								</div>
 								<div class="d-inline-block">
-									<h5 class="font-weight-normal margin-0 line-height-140">Anna Mullen</h5>
-									<span class="font-small font-weight-normal text-white-09">Designer - Mono</span>
+									<h5 class="font-weight-normal margin-0 line-height-140">John Do</h5>
+									<span class="font-small font-weight-normal text-white-09">FaceBook Review</span>
 								</div>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -294,8 +298,8 @@
 									<img class="img-circle-sm" src="../assets/images/img-circle-small.jpg" alt="">
 								</div>
 								<div class="d-inline-block">
-									<h5 class="font-weight-normal margin-0 line-height-140">John Smith</h5>
-									<span class="font-small font-weight-normal text-white-09">Marketer - Mono</span>
+									<h5 class="font-weight-normal margin-0 line-height-140">John Do</h5>
+									<span class="font-small font-weight-normal text-white-09">FaceBook Review</span>
 								</div>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -314,21 +318,22 @@
 				</div>
 				<div class="row col-spacing-40 icon-5xl">
 					<div class="col-12 col-lg-4">
-						<i class="ti-comment-alt text-dark margin-top-10"></i>
-						<h5 class="font-weight-normal margin-top-20">Consulting</h5>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<i class="ti-user text-dark margin-top-10"></i>
+						<h5 class="font-weight-normal margin-top-20">Bouldering and Top Rope</h5>
+						<p> We are open to beginner, intermediate, and advanced climbers.</p>
 						<a class="text-btn-2 margin-top-20" href="#">Learn More</a>
 					</div>
 					<div class="col-12 col-lg-4">
-						<i class="ti-announcement text-dark margin-top-10"></i>
-						<h5 class="font-weight-normal margin-top-20">Social Marketing</h5>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<i class="ti-pencil text-dark margin-top-10"></i>
+						<h5 class="font-weight-normal margin-top-20">Classes</h5>
+						<p>Learn how to boulder or belay with our top coaches</p>
 						<a class="text-btn-2 margin-top-20" href="#">Learn More</a>
 					</div>
 					<div class="col-12 col-lg-4">
-						<i class="ti-star text-dark margin-top-10"></i>
-						<h5 class="font-weight-normal margin-top-20">Branding</h5>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<i class="ti-calendar text-dark margin-top-10"></i>
+						<h5 class="font-weight-normal margin-top-20">Events</h5>
+						<p>Book private parties for large or small groups</p>
+                        <br>
 						<a class="text-btn-2 margin-top-20" href="#">Learn More</a>
 					</div>
 				</div><!-- end row -->
@@ -343,16 +348,17 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-3">
-							<h3>Climb Time</h3>
+							<h3>Logo Climb Time</h3>
 							<ul class="list-horizontal-unstyled">
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.facebook.com/climbtimeoakley/"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/climbtimeaokley/"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
 							<h6 class="heading-uppercase">Useful Links</h6>
 							<ul class="list-dash">
-								<li><a href="#">About us</a></li>
+								<li><a href="#">About Blue Ash</a></li>
+                                <li><a href="#">About Oakley</a></li>
 								<li><a href="#">FAQ</a></li>
 								<li><a href="#">Contact</a></li>
 							</ul>
